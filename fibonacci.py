@@ -3,6 +3,5 @@ def fib(n):
     return n
   return fib(n-2) + fib(n-1)
 n = 10
-
 for i in range(n):
-  	print (fib(i))
+  	print (fib(i)) #prints out fibonacci sequence
